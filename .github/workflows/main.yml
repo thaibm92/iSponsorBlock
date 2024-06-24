@@ -1,13 +1,13 @@
 # This has been created by @lillieH1000
 
-name: Build the YouTube Premium Deb
+name: Build Deb
 
 on:
   workflow_dispatch:
     
 jobs:
   build:
-    name: YouTube Premium
+    name: Build Deb
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@main
